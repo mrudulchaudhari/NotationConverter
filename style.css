@@ -1,20 +1,20 @@
 body{
-    background-color: #fdfdfd;
+    background-color: #fcefef;
     color: rgb(0, 21, 41);
 }
 a:link {
-    color: #ff8521;
+    color: #8d04c4;
     text-decoration: none;
 }
 
 /* Visited link */
 a:visited {
-    color: #ff8521;
+    color: #8d04c4;
 }
 
 /* Mouse over link */
 a:hover {
-    color: #ff00ff;
+    color: #fc66fc;
     
 }
 
