@@ -1,4 +1,24 @@
 body{
-    background-color: #0f0e28;
-    color: rgb(238, 244, 250);
+    background-color: #fdfdfd;
+    color: rgb(0, 21, 41);
+}
+a:link {
+    color: #ff8521;
+    text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+    color: #ff8521;
+}
+
+/* Mouse over link */
+a:hover {
+    color: #ff00ff;
+    
+}
+
+/* Selected link */
+a:active {
+    color: #FF0000;
 }
