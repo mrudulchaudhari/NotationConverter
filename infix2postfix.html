@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class = "header-main"></div>
-    </header>
+    <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+    <label for="navbar-toggle" class="navbar-toggle-label">☰</label>
+    <nav class="navbar">
+        <div class="section-title">Expression Conversions</div>
+        <a href="./infix2postfix.html" class="navbar-item">Infix to Postfix</a>
+        <a href="./postfix2infix.html" class="navbar-item">Postfix to Infix</a>
+        <a href="./infix2prefix.html" class="navbar-item">Infix to Prefix</a>
+        <a href="./prefix2infix.html" class="navbar-item">Prefix to Infix</a>
+        <a href="#postfix-to-prefix" class="navbar-item">Postfix to Prefix</a>
+        <a href="#prefix-to-postfix" class="navbar-item">Prefix to Postfix</a>
+    </nav>
+
+    <div class="overlay"></div>
     <a href="./index.html">home</a> <br>
-    <h1>Infix to Postfix/Prefix calculator</h1>
+    <h1>Infix to Postfix calculator</h1>
     <p>About each notation: </p>
     <ol>
         <li>Infix: This is the standard notation we use in everyday mathematics. <br>
@@ -40,21 +50,7 @@
                 <li>Evaluation can be done using a stack</li>
             </ul>
         </li>
-        
-        <li>Prefix: Also known as Polish Notation. <br>
-        
-            Operators precede their operands. <br>
-            Example: + a * b c <br>
-        
-            Characteristics:
-            <ul>
-                <li>Also eliminates the need for parentheses</li>
-                <li>Clear indication of operator precedence</li>
-                <li>Less common than postfix, but used in some programming languages (like Lisp)</li>
-                <li>Can be evaluated using recursion or a stack</li>
-            </ul>
-        </li>
-        
+                
     </ol>
     <h3>Infix to Postfix</h3>
     <label for="infix"></label>Input:
